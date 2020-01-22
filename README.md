@@ -13,3 +13,8 @@ Ingredients of a Neural Network:
 - cost function
 - function to compute gradients of weights
 - back propagation function
+
+
+Neural Network Programming Guide
+
+- Whenever possible, aviod explicit for-loops

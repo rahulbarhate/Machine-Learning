@@ -18,3 +18,5 @@ Ingredients of a Neural Network:
 Neural Network Programming Guide
 
 - Whenever possible, aviod explicit for-loops
+
+- Do not use rank 1 arrays

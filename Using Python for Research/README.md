@@ -44,7 +44,7 @@ It is a value that is attached to a specific object.
 - It is a function that is attached to an object.
 - And typically a method performs some function or some operation on that object.
 
-```
+```python
 x = np.array([1,3,5])
 x.mean() - has brackets - so it is a function/method
 x.shape - does not have brackets so is an attribute
@@ -61,7 +61,7 @@ Import math
 math.pi
 math.sqrt(10)
 
-```
+```python
 >>> import math
 >>> import numpy as np
 

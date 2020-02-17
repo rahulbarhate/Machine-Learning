@@ -1,24 +1,25 @@
-Python is an interpreted language. 
-That means that you can run yourPython programs without the need to first link or compile them.
+# Python
 
-Two different modes:
+Python is an *interpreted* language.</br>
+That means that you can run your Python programs without the need to first link or compile them.
 
-Interactive Mode
-Meant for experimenting with your code one line or one expression at a time
+### Two different modes:
 
-Standard Mode
-Used to run the program from start to finish
+- Interactive Mode: </br>
+Meant for experimenting with your code one line or one expression at a time.
 
-Python 3 is not backward compatible
-Ie. Anyone having Python 2 cannot run a Python 3 code
+- Standard Mode: </br>
+Used to run the program from start to finish.
+
+Python 3 is **not backward compatible**
+i.e. Anyone having Python 2 cannot run a Python 3 code.
 
 ## Objects:
 
-All the data in a Python program is represented by object and by relationship between objects.
-
-The value of some objects can change in the course for program execution.
-Objects whose value can change are said to be mutable objects (dictionaries and lists)
-Where are objects whose value is unchangeable after they’ve been created are called immutable. (strings and tuples)
+- All the data in a Python program is represented by object and by relationship between objects.
+- The value of some objects can change in the course for program execution.
+- Objects whose value can change are said to be mutable objects (dictionaries and lists).</br>
+Whereas objects whose value is unchangeable after they’ve been created are called immutable. (strings and tuples)
 
 Each object in Python has three characteristics:
 
@@ -30,24 +31,25 @@ Each distinct object in the computer's memory can have its own identity number.
 
 ## Attributes:
 
-Most Python objects have either data or functions associated with them. These are known as attributes.
-
-The name of the attribute follows the name of the object.
-Both the name of the attribute and the name of the object are separated by a dot.
+- Most Python objects have either data or functions associated with them. These are known as attributes.
+- The name of the attribute follows the name of the object.
+- Both the name of the attribute and the name of the object are separated by a dot.
 
 ### Types of attributes:
-Data Attribute:
+
+### Data Attribute:
 It is a value that is attached to a specific object.
-Method
-    It is a function that is attached to an object.
-    And typically a method performs some function or some operation on that object.
+
+### Method
+- It is a function that is attached to an object.
+- And typically a method performs some function or some operation on that object.
 
 
-
+```
 x = np.array([1,3,5])
 x.mean() - has brackets - so it is a function/method
-X.shape - does not have brackets so is an attribute
-
+x.shape - does not have brackets so is an attribute
+```
 
 Video 1.1.3 Modules and Methods
 

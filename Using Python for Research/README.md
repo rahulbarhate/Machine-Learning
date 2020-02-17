@@ -40,10 +40,9 @@ Each distinct object in the computer's memory can have its own identity number.
 ### Data Attribute:
 It is a value that is attached to a specific object.
 
-### Method
+### Method:
 - It is a function that is attached to an object.
 - And typically a method performs some function or some operation on that object.
-
 
 ```
 x = np.array([1,3,5])
@@ -89,16 +88,17 @@ TypeError: a float is required
 ```
 
 
+## How to determine the type of the object?
 
-How to determine the type of the object
-
+```
 def(variable_name)
-
+```
 
 While asking for help
 
+```
 >> help(name.upper)
-
+```
 
 Q. Suppose that math.sqrt and numpy.sqrt had identical behavior. Are they the same function?
 No. Because they belong to different namespaces, Python treats them separately, regardless of their behavior. 
@@ -135,9 +135,10 @@ Indexing: access any item in the sequence using an index
 A **list** is **mutable** while a **tuple** is **immutable**.
 Ie. objects in the tuple cannot be modified after they are created
 
-Slicing - Slice out substrings, sublists subtuples using indexes.
+### Slicing - Slice out substrings, sublists subtuples using indexes.
 [start : end+1 : step]
 
+```
 >>> x = 'computer'
 >>> print(x[1:4])
 omp
@@ -152,7 +153,7 @@ r
 >>> print(x[-3:])
 ter
 >>> print(x[:-2])
-
+```
 
 ### Adding / Concatenation: Combine two sequences of the same type using +
 

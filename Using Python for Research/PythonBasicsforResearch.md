@@ -12,7 +12,7 @@ Used to run the program from start to finish
 Python 3 is not backward compatible
 Ie. Anyone having Python 2 cannot run a Python 3 code
 
-Objects:
+## Objects:
 
 All the data in a Python program is represented by object and by relationship between objects.
 
@@ -22,20 +22,20 @@ Where are objects whose value is unchangeable after they’ve been created are c
 
 Each object in Python has three characteristics:
 
-Object type - (number, string, etc)
-Object value - data value
-Object identity - identity number
+- Object type - (number, string, etc)
+- Object value - data value
+- Object identity - identity number
 
 Each distinct object in the computer's memory can have its own identity number.
 
-Attributes:
+## Attributes:
 
 Most Python objects have either data or functions associated with them. These are known as attributes.
 
 The name of the attribute follows the name of the object.
 Both the name of the attribute and the name of the object are separated by a dot.
 
-Types of attributes:
+### Types of attributes:
 Data Attribute:
 It is a value that is attached to a specific object.
 Method
@@ -60,6 +60,7 @@ Import math
 math.pi
 math.sqrt(10)
 
+```
 >>> import math
 >>> import numpy as np
 
@@ -83,7 +84,7 @@ Traceback (most recent call last):
   File "<pyshell#7>", line 1, in <module>
     math.sqrt([1, 2, 3])
 TypeError: a float is required
-
+```
 
 
 
@@ -116,19 +117,20 @@ Integer Division - Rounds the number to the closest integer less than the actual
 
 For integer division - use two slash signs
 
+```
 >>> 15/7
 2.142857142857143
 >>> 15//7
 2
+```
 
-
-Sequences: String, List, Tuple
+## Sequences: String, List, Tuple
 
 Indexing: access any item in the sequence using an index
 
-What is the difference between a list and a tuple?
+## What is the difference between a list and a tuple?
 
-A list is mutable while a tuple is immutable
+A **list** is **mutable** while a **tuple** is **immutable**.
 Ie. objects in the tuple cannot be modified after they are created
 
 Slicing - Slice out substrings, sublists subtuples using indexes.
@@ -150,8 +152,9 @@ ter
 >>> print(x[:-2])
 
 
-Adding / Concatenation: Combine two sequences of the same type using +
+### Adding / Concatenation: Combine two sequences of the same type using +
 
+```
 >>> x = 'horse' + 'shoe'
 >>> print(x)
 horseshoe
@@ -166,10 +169,12 @@ horseshoe
 
 >>> print(z)
 ('Kevin', 'Niklas', 'Jenny', 'Craig')
+```
 
 
-Multiplying
+### Multiplying
 
+```
 >>> x = 'bug' *3
 >>> print(x)
 bugbugbug
@@ -182,11 +187,13 @@ bugbugbug
 >>> z = (2,4) *3
 >>> print(z)
 (2, 4, 2, 4, 2, 4)
+```
 
-Checking membership - test whether an item is or is not in a sequence
+### Checking membership - test whether an item is or is not in a sequence
 
-in and not in
+- in and not in
 
+```
 >>> x = 'bug'
 >>> print('u' in x)
 True
@@ -200,10 +207,12 @@ False
 >>> z = ('Kevin', 'Niklas', 'Jenny', 'Craig')
 >>> print('Niklas' in z)
 True
+```
 
 
 Iterating - iterating through the items in a sequence
 
+```
 >>> x = [7,8,3]
 >>> for item in x:
     print(item)
@@ -221,9 +230,11 @@ Iterating - iterating through the items in a sequence
 0 7
 1 8
 2 3
+```
 
-Numbers of item  - count the number of items in a sequence
+### Numbers of item  - count the number of items in a sequence
 
+```
 >>> x = 'bug'
 >>> print(len(x))
 3
@@ -231,11 +242,12 @@ Numbers of item  - count the number of items in a sequence
 
 >>> y = ['pig', 'cow', 'horse']
 >>> print(len(y))
+```
 
+### Minimum - find the minimum item in a sequence lexicographically
+- Alpha or numeric types, but cannot be mixed types.
 
-Minimum - find the minimum item in a sequence lexicographically
-Alpha or numeric types, but cannot be mixed types.
-
+```
 >>> x = 'bug'
 >>> print(min(x))
 b
@@ -244,11 +256,12 @@ b
 >>> y = ('pig', 'cow', 'horse')
 >>> print(min(y))
 Cow
+```
 
+### Sum - find the sum of items in a sequence
+- The entire sequence must be numeric
 
-Sum - find the sum of items in a sequence
-The entire sequence must be numeric
-
+```
 >>> y = [2, 5, 8, 12]
 >>> print(sum(y))
 27
@@ -261,13 +274,14 @@ The entire sequence must be numeric
 >>> z = (50, 4, 7, 19)
 >>> print(sum(z))
 80
+```
 
+### Sorting - returns a new list of items in a sorted order
 
-Sorting - returns a new list of items in a sorted order
-Does not change the original list
+- Does not change the original list
+- This is not an in-place sort, it returns a new list with a sorted list
 
-This is not an in-place sort, it returns a new list with a sorted list
-
+```
 >>> x = 'bug'
 >>> print(sorted(x))
 ['b', 'g', 'u']
@@ -276,10 +290,12 @@ This is not an in-place sort, it returns a new list with a sorted list
 >>> y = ['pig', 'cow', 'horse']
 >>> print(sorted(y))
 ['cow', 'horse', 'pig']
+```
 
 
-count(item) - returns the count of the item
+### count(item) - returns the count of the item
 
+```
 >>> x = 'hippo'
 >>> print(x.count('p'))
 2
@@ -288,9 +304,11 @@ count(item) - returns the count of the item
 >>> y = ['pig', 'cow', 'horse', 'cow']
 >>> print(y.count('cow'))
 2
+```
 
-Index(item) - returns the index of the first occurence of an item
+### Index(item) - returns the index of the first occurence of an item
 
+```
 >>> x = 'hippo'
 >>> print(x.index('p'))
 2
@@ -299,13 +317,15 @@ Index(item) - returns the index of the first occurence of an item
 >>> y = ['pig', 'cow', 'horse', 'cow']
 >>> print(y.count('cow'))
 1
+```
 
-Unpacking - unpack the n items of a sequence into n variables
+### Unpacking - unpack the n items of a sequence into n variables
 
+```
 >>> x = ['pig', 'cow', 'horse']
 >>> a, b, c = x
 >>> print(a, b, c)
 pig cow horse
-
+```
 
 

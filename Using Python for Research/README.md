@@ -332,3 +332,37 @@ pig cow horse
 ```
 
 
+## Lists
+
+- Grow and shrink in size as needed - continue to add and delete elements so the size changes automatically, Python does that for you.
+- Sequence type - all the sequence functions are useful for lists.
+- sortable.
+
+### Constructors - Creating a new list
+
+### delete - delete a list or an item in a list
+
+**del()**
+
+### append - add an item to the end of the list
+
+### extend - append a sequence to the list
+
+### insert - inset an item at a given index
+
+### pop - pop the last element of the list and return the item
+
+### remove - remove the first instance of an item
+
+### reverse - reverse the order of the list. It is an in-place sort. I.e. it changes the original list.
+
+### sort - sort the list in place
+
+- sorted(x) - returns a new sorted list w/o changing the original list x
+- x.sort() - sorts the list in-place
+
+### reverse sort - sort items in descending order
+
+- Use reverse = True parameter to the sort function
+
+

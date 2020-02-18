@@ -346,31 +346,58 @@ pig cow horse
 - Sequence type - all the sequence functions are useful for lists.
 - sortable.
 
-### Constructors - Creating a new list
+### Constructors - Creating a new list.
 
-### delete - delete a list or an item in a list
+![](images/list_1.jpg)
 
-**del()**
+### delete - delete a list or an item in a list.
 
-### append - add an item to the end of the list
+**del()** - function used to delete elements
 
-### extend - append a sequence to the list
+![](images/list_1.jpg)
 
-### insert - inset an item at a given index
+### append - add an item to the end of the list.
 
-### pop - pop the last element of the list and return the item
+![](images/list_3.jpg)
 
-### remove - remove the first instance of an item
+### extend - append a sequence to the list.
 
-### reverse - reverse the order of the list. It is an in-place sort. I.e. it changes the original list.
+![](images/list_4.jpg)
+
+### insert - inset an item at a given index.
+
+![](images/list_5.jpg)
+
+Inserting a list inside a list.
+
+![](images/list_6.jpg)
+
+### pop - pop the last element of the list and return the item.
+
+![](images/list_7.jpg)
+
+### remove - remove the first instance of an item.
+
+![](images/list_8.jpg)
+
+### reverse - reverse the order of the list. 
+
+* It is an in-place sort. I.e. it changes the original list.
+
+![](images/list_9.jpg)
 
 ### sort - sort the list in place
 
 - sorted(x) - returns a new sorted list w/o changing the original list x
 - x.sort() - sorts the list in-place
 
+![](images/list_10.jpg)
+
+
 ### reverse sort - sort items in descending order
 
 - Use `reverse = True` parameter to the sort function
+
+![](images/list_11.jpg)
 
 

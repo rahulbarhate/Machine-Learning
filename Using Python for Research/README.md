@@ -90,13 +90,13 @@ TypeError: a float is required
 
 ## How to determine the type of the object?
 
-```
+```python
 def(variable_name)
 ```
 
 While asking for help
 
-```
+```python
 >> help(name.upper)
 ```
 
@@ -119,9 +119,10 @@ Integer Division - Rounds the number to the closest integer less than the actual
 
 For integer division - use two slash signs
 
-```
+```python
 >>> 15/7
 2.142857142857143
+
 >>> 15//7
 2
 ```
@@ -138,26 +139,33 @@ Ie. objects in the tuple cannot be modified after they are created
 ### Slicing - Slice out substrings, sublists subtuples using indexes.
 [start : end+1 : step]
 
-```
+```python
 >>> x = 'computer'
 >>> print(x[1:4])
 omp
+
 >>> print(x[1:6:2])
 opt
+
 >>> print(x[3:])
 puter
+
 >>> print(x[:5])
 compu
+
 >>> print(x[-1])
 r
+
 >>> print(x[-3:])
 ter
+
 >>> print(x[:-2])
+comput
 ```
 
 ### Adding / Concatenation: Combine two sequences of the same type using +
 
-```
+```python
 >>> x = 'horse' + 'shoe'
 >>> print(x)
 horseshoe
@@ -177,7 +185,7 @@ horseshoe
 
 ### Multiplying
 
-```
+```python
 >>> x = 'bug' *3
 >>> print(x)
 bugbugbug
@@ -196,7 +204,7 @@ bugbugbug
 
 - in and not in
 
-```
+```python
 >>> x = 'bug'
 >>> print('u' in x)
 True
@@ -215,7 +223,7 @@ True
 
 Iterating - iterating through the items in a sequence
 
-```
+```python
 >>> x = [7,8,3]
 >>> for item in x:
     print(item)
@@ -237,7 +245,7 @@ Iterating - iterating through the items in a sequence
 
 ### Numbers of item  - count the number of items in a sequence
 
-```
+```python
 >>> x = 'bug'
 >>> print(len(x))
 3
@@ -250,7 +258,7 @@ Iterating - iterating through the items in a sequence
 ### Minimum - find the minimum item in a sequence lexicographically
 - Alpha or numeric types, but cannot be mixed types.
 
-```
+```python
 >>> x = 'bug'
 >>> print(min(x))
 b
@@ -264,7 +272,7 @@ Cow
 ### Sum - find the sum of items in a sequence
 - The entire sequence must be numeric
 
-```
+```python
 >>> y = [2, 5, 8, 12]
 >>> print(sum(y))
 27
@@ -284,7 +292,7 @@ Cow
 - Does not change the original list
 - This is not an in-place sort, it returns a new list with a sorted list
 
-```
+```python
 >>> x = 'bug'
 >>> print(sorted(x))
 ['b', 'g', 'u']
@@ -298,7 +306,7 @@ Cow
 
 ### count(item) - returns the count of the item
 
-```
+```python
 >>> x = 'hippo'
 >>> print(x.count('p'))
 2
@@ -311,7 +319,7 @@ Cow
 
 ### Index(item) - returns the index of the first occurence of an item
 
-```
+```python
 >>> x = 'hippo'
 >>> print(x.index('p'))
 2
@@ -324,7 +332,7 @@ Cow
 
 ### Unpacking - unpack the n items of a sequence into n variables
 
-```
+```python
 >>> x = ['pig', 'cow', 'horse']
 >>> a, b, c = x
 >>> print(a, b, c)

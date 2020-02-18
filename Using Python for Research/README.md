@@ -371,6 +371,6 @@ pig cow horse
 
 ### reverse sort - sort items in descending order
 
-- Use reverse = True parameter to the sort function
+- Use `reverse = True` parameter to the sort function
 
 
